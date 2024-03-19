@@ -427,7 +427,6 @@ body {
 .spinning-circle > svg {
   text-transform: uppercase;
   color: white;
-  /* border-radius: 200px; */
 }
 
 .text-path {
@@ -457,7 +456,6 @@ body {
 .services-section-text > p:nth-of-type(2) {
   font-size: 5.5vw;
   font-stretch: extra-expanded;
-  /* letter-spacing: 1px; */
   font-weight: 400;
   line-height: 1.1;
 }
@@ -468,4 +466,53 @@ body {
 
 .below {
   height: 100vh;
+}
+
+.ethic {
+  margin: 10px;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.ethic-description {
+  position: absolute;
+  left: 40%;
+  background-color: #1b1b1f;
+  height: 100%;
+  width: 50%;
+  border-top-left-radius: 70px;
+  border-bottom-left-radius: 70px;
+  transition: left 0.1s linear;
+}
+
+.ethic-title {
+  position: absolute;
+  right: 50%;
+  background-color: #a5a1ff;
+  height: 100%;
+  border: 1px solid #a5a1ff;
+  width: 52.5%;
+  border-radius: 70px;
+  transition: right 0.1s linear;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1b1b1f;
+}
+
+.ethic-title > p:nth-of-type(1) {
+  margin-bottom: 30px;
+  font-size: 22px;
+}
+
+.ethic-title > p:nth-of-type(2) {
+  font-size: 44px;
+  font-weight: 750;
+  letter-spacing: -0.035em;
+  margin: 0;
+  line-height: 88%;
 }
